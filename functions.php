@@ -66,6 +66,7 @@ function oded_setup() {
 	) ) );
 }
 endif;
+
 add_action( 'after_setup_theme', 'oded_setup' );
 
 /**
