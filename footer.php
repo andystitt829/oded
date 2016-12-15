@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="container site-footer" role="contentinfo">
+	<footer id="colophon" class="container site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 		<div class="row">
 			<div class="col-xs-12 col-md-12 site-info">
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'oded' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'oded' ), 'WordPress' ); ?></a>
