@@ -442,10 +442,11 @@ a {
     margin: 0;
     padding-left: 0; }
     .main-navigation ul ul {
+      background: #fff;
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
       position: absolute;
-      top: 1.5em;
+      top: 3em;
       left: -999em;
       z-index: 99999; }
       .main-navigation ul ul ul {
@@ -465,6 +466,9 @@ a {
   .main-navigation a {
     display: block;
     text-decoration: none; }
+
+.sub-menu li {
+  padding: 5px; }
 
 /* Small menu. */
 .menu-toggle,

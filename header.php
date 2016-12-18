@@ -25,7 +25,7 @@
 
 	<header id="masthead" class="container site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 		<div class="row">
-			<div class="col-xs-12 col-md-8 site-branding">
+			<div class="col-xs-12 col-md-4 site-branding">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 				<?php
@@ -36,7 +36,7 @@
 				endif; ?>
 			</div><!-- .site-branding -->
 
-			<div class="col-xs-12 col-md-4">
+			<div class="col-xs-12 col-md-8">
 				<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'oded' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav navbar' ) ); ?>
