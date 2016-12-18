@@ -231,7 +231,8 @@ textarea {
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  font-family: 'Lato', sans-serif !important; }
 
 p {
   margin-bottom: 1.5em; }
@@ -446,7 +447,7 @@ a {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
       position: absolute;
-      top: 3em;
+      top: 2.5em;
       left: -999em;
       z-index: 99999; }
       .main-navigation ul ul ul {
@@ -462,6 +463,7 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
+    font-size: 16px;
     position: relative; }
   .main-navigation a {
     display: block;
