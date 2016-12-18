@@ -27,6 +27,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Elements
 # Forms
 # Navigation
+# Layout
 	## Links
 	## Menus
 # Accessibility
@@ -501,6 +502,13 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.site-footer {
+  background: #bfbfbf;
+  padding: 30px; }
 
 /*--------------------------------------------------------------
 # Accessibility
