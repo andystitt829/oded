@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="container content-area">
 		<div class="row">
 			<?php
-				if ( is_active_sidebar( 'sidebar-1') ) : ?>
+			if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 			<div class="col-xs-12 col-md-8">
 			<?php else : ?>
 			<div class="col-xs-12 col-md-12">
