@@ -6,12 +6,18 @@
 	select {
 		max-width: 100%;
 	}
+
+	ul {
+		margin-left: 20px;
+	}
 }
 
 .widget-title {
-	background: $color__background-widget-title;
-	color: $color__widget-title;
 	height: 50px;
 	margin-top: 0px;
 	padding: 10px;
+}
+
+.widget_search {
+	border: none;
 }

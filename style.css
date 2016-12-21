@@ -599,13 +599,16 @@ a {
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
+  .widget ul {
+    margin-left: 20px; }
 
 .widget-title {
-  background: #000;
-  color: #fff;
   height: 50px;
   margin-top: 0px;
   padding: 10px; }
+
+.widget_search {
+  border: none; }
 
 /*--------------------------------------------------------------
 # Content
