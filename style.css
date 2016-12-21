@@ -517,6 +517,23 @@ a {
   background: #f5f2f2;
   margin-bottom: 30px; }
 
+.cat-links::before, .tags-links::before, .comments-link::before {
+  display: inline-block;
+  font: normal 16px 'dashicons';
+  margin-right: 5px; }
+
+.cat-links::before {
+  content: "\f318"; }
+
+.tags-links::before {
+  content: "\f323"; }
+
+.comments-link::before {
+  content: "\f101"; }
+
+.edit-link {
+  margin-right: 5px; }
+
 .site-footer {
   background: #bfbfbf;
   padding: 30px; }
@@ -653,6 +670,12 @@ a {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+ul.comment-list {
+  list-style: none;
+  padding: 0; }
+  ul.comment-list ul {
+    list-style: none; }
+
 .comment-content a {
   word-wrap: break-word; }
 
