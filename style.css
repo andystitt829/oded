@@ -517,6 +517,10 @@ a {
   background: #f5f2f2;
   margin-bottom: 30px; }
 
+.entry-footer {
+  border-top: 1px solid #b9b7b7;
+  padding: 10px 0px; }
+
 .cat-links::before, .tags-links::before, .comments-link::before {
   display: inline-block;
   font: normal 16px 'dashicons';
