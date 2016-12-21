@@ -444,7 +444,7 @@ a {
   .main-navigation ul {
     display: none;
     list-style: none;
-    margin: 0;
+    margin-top: 15px;
     padding-left: 0; }
     .main-navigation ul ul {
       background: #fff;
@@ -487,6 +487,10 @@ a {
   .main-navigation ul {
     display: block; } }
 
+@media screen and (max-width: 992px) {
+  .main-navigation ul {
+    margin-top: 5px; } }
+
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -509,6 +513,10 @@ a {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
+.site-header {
+  background: #f5f2f2;
+  margin-bottom: 30px; }
+
 .site-footer {
   background: #bfbfbf;
   padding: 30px; }
@@ -597,7 +605,7 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  border: 1px solid #000;
+  background: #f5f2f2;
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
@@ -611,7 +619,7 @@ a {
   padding: 10px; }
 
 .widget_search {
-  border: none; }
+  background: none; }
 
 /*--------------------------------------------------------------
 # Content

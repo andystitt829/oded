@@ -7,7 +7,7 @@
 	ul {
 		display: none;
 		list-style: none;
-		margin: 0;
+		margin-top: 15px;
 		padding-left: 0;
 
 		ul {
@@ -88,6 +88,12 @@
 	}
 	.main-navigation ul {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.main-navigation ul {
+		margin-top: 5px;
 	}
 }
 
