@@ -103,11 +103,11 @@ add_action( 'widgets_init', 'oded_widgets_init' );
  * Enqueue scripts and styles.
  */
 function oded_scripts() {
-	wp_enqueue_style( 'oded-style', get_stylesheet_uri() );
-
 	wp_enqueue_style( 'oded-bootstrap', get_template_directory_uri() . '/bootstrap/bootstrap.min.css' );
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400', array(), '20151215', true );
+	wp_enqueue_style( 'oded-style', get_stylesheet_uri() );
+
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400|Merriweather:300,400', array(), '20151215', true );
 
 	wp_enqueue_script( 'oded-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
