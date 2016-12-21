@@ -36,4 +36,4 @@ function oded_pingback_header() {
 		echo '<link rel="pingback" href="', bloginfo( 'pingback_url' ), '">';
 	}
 }
-add_action( 'wp_head', 'oded_pingback_header' );
+//add_action( 'wp_head', 'oded_pingback_header' );

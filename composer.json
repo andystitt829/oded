@@ -1,6 +1,5 @@
 {
     "require": {
-        "twbs/bootstrap": "^3.3",
-        "squizlabs/php_codesniffer": "*"
+        "twbs/bootstrap": "^3.3"
     }
 }
