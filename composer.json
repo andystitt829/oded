@@ -1,5 +1,10 @@
 {
     "require": {
         "twbs/bootstrap": "^3.3"
+    },
+
+    "require-dev": {
+      "raveren/kint" : "~1.0",
+      "filp/whoops": "~2.0"
     }
 }
