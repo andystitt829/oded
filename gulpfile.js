@@ -13,24 +13,24 @@ gulp.task('default', function () {
 });
 
 gulp.task('delbuild', function() {
-  return del('build/**');
+  return del('oded/**');
 });
 
 gulp.task('move', function() {
   console.log("Moving all files in styles folder");
 
   gulp.src('**')
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('oded'));
 });
 
 gulp.task('clean', function() {
   return del([
-    'build/.**',
-    'build/node_modules',
-    'build/sass',
-    'build/vendor',
-    'build/composer.**',
-    'build/gulpfile.js',
-    'build/package.json'
+    'oded/.**',
+    'oded/node_modules',
+    'oded/sass',
+    'oded/vendor',
+    'oded/composer.**',
+    'oded/gulpfile.js',
+    'oded/package.json'
   ]);
 });
