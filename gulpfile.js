@@ -30,6 +30,7 @@ gulp.task('clean', function() {
     'build/sass',
     'build/vendor',
     'build/composer.**',
+    'build/gulpfile.js',
     'build/package.json'
   ]);
 });
