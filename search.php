@@ -9,39 +9,46 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-		<?php
-		if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'oded' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
-
+	<div id="primary" class="container content-area">
+		<div class="row">
 			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+			if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+			<div class="col-xs-12 col-md-8">
+			<?php else : ?>
+			<div class="col-xs-12 col-md-12">
+			<?php endif; ?>
+				<main id="main" class="site-main" role="main">
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+				<?php
+				if ( have_posts() ) : ?>
 
-			endwhile;
+					<header class="page-header">
+						<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'oded' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+					</header><!-- .page-header -->
 
-			the_posts_navigation();
+					<?php
+					/* Start the Loop */
+					while ( have_posts() ) : the_post();
 
-		else :
+						/**
+						 * Run the loop for the search to output the results.
+						 * If you want to overload this in a child theme then include a file
+						 * called content-search.php and that will be used instead.
+						 */
+						get_template_part( 'template-parts/content', 'search' );
 
-			get_template_part( 'template-parts/content', 'none' );
+					endwhile;
 
-		endif; ?>
+					the_posts_navigation();
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+				else :
+
+					get_template_part( 'template-parts/content', 'none' );
+
+				endif; ?>
+
+				</main><!-- #main -->
+		</div><!-- #primary -->
 
 <?php
 get_sidebar();
