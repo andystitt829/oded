@@ -236,6 +236,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   margin-bottom: 15px; }
 
+h1 {
+  margin: 0.35em 0; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -427,7 +430,7 @@ a {
   .main-navigation ul {
     display: none;
     list-style: none;
-    margin-top: 15px;
+    margin: 12px 0px 5px;
     padding-left: 0; }
     .main-navigation ul ul {
       background: #3F51B5;
@@ -499,6 +502,7 @@ a {
 --------------------------------------------------------------*/
 .site-header {
   background: #3F51B5;
+  height: 100%;
   margin-bottom: 30px; }
   .site-header a, .site-header a:hover, .site-header a:visited, .site-header p {
     background: none !important;
@@ -526,16 +530,11 @@ a {
   margin-right: 5px; }
 
 .site-footer {
-  background: #bfbfbf;
   padding: 30px; }
 
 .mdl-card {
   padding: 15px 35px;
   width: 100%; }
-
-.panel {
-  border-radius: 2px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12); }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -626,7 +625,8 @@ a {
   .widget select {
     max-width: 100%; }
   .widget ul {
-    margin-left: 20px; }
+    list-style: none;
+    padding: 20px; }
 
 .widget-title {
   height: 50px;
@@ -635,7 +635,19 @@ a {
 
 .widget_search .panel {
   background: none;
+  border: none;
   box-shadow: none; }
+
+.panel {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12); }
+
+.panel-heading {
+  background: #3F51B5 !important; }
+
+.panel-title {
+  font-size: 18px; }
 
 /*--------------------------------------------------------------
 # Content

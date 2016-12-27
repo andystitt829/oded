@@ -7,7 +7,8 @@
 	}
 
 	ul {
-		margin-left: 20px;
+		list-style: none;
+		padding: 20px;
 	}
 }
 
@@ -19,5 +20,20 @@
 
 .widget_search .panel {
 	background: none;
+	border: none;
 	box-shadow: none;
+}
+
+.panel {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 6px rgba(0,0,0,.12);
+}
+
+.panel-heading {
+  background: #3F51B5 !important;
+}
+
+.panel-title {
+	font-size: 18px;
 }

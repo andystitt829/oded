@@ -91,7 +91,7 @@ function oded_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', 'oded' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'oded' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="panel">',
+		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="panel panel-primary">',
 		'after_widget'  => '</div></section>',
 		'before_title'  => '<div class="panel-heading"><h3 class="panel-title">',
 		'after_title'   => '</h3></div>',

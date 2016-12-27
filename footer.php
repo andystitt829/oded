@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+	<footer id="colophon" class="mdl-mini-footer site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-12 site-info">
