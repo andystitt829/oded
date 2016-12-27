@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="mdl-card mdl-shadow--2dp">
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
@@ -27,4 +28,5 @@
 	<footer class="entry-footer">
 		<?php oded_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+</div>
 </article><!-- #post-## -->

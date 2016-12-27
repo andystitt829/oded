@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="mdl-card mdl-shadow--2dp">
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
@@ -40,4 +41,5 @@
 			?>
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
+</div>
 </article><!-- #post-## -->

@@ -27,17 +27,19 @@ gulp.task('move', function() {
 gulp.task('clean', function() {
   return del([
     'oded/.**',
+    'oded/bower_components',
     'oded/node_modules',
     'oded/sass',
     'oded/vendor',
     'oded/composer.**',
     'oded/gulpfile.js',
+    'oded/oded.zip',
     'oded/package.json'
   ]);
 });
 
 gulp.task('zip', function() {
-    return gulp.src('oded/*')
+    return gulp.src('oded/**/**/**')
         .pipe(zip('oded.zip'))
         .pipe(gulp.dest('./'));
 });
