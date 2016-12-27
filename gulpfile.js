@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var del = require('del');
+var zip = require('gulp-zip');
 
 gulp.task('sass', function(){
   return gulp.src('sass/style.scss')
@@ -33,4 +34,10 @@ gulp.task('clean', function() {
     'oded/gulpfile.js',
     'oded/package.json'
   ]);
+});
+
+gulp.task('zip', function() {
+    return gulp.src('oded/*')
+        .pipe(zip('oded.zip'))
+        .pipe(gulp.dest('./'));
 });
