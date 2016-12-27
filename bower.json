@@ -1,0 +1,22 @@
+{
+  "name": "oded",
+  "description": "Custom WordPress theme",
+  "main": "index.js",
+  "authors": [
+    "Andy Stitt"
+  ],
+  "license": "GPL",
+  "homepage": "https://github.com/andystitt829/oded",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.3.0",
+    "bootstrap": "^3.3.7"
+  }
+}

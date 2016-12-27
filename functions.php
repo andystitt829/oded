@@ -91,10 +91,10 @@ function oded_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', 'oded' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'oded' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="panel">',
+		'after_widget'  => '</div></section>',
+		'before_title'  => '<div class="panel-heading"><h3 class="panel-title">',
+		'after_title'   => '</h3></div>',
 	) );
 }
 add_action( 'widgets_init', 'oded_widgets_init' );
@@ -103,7 +103,9 @@ add_action( 'widgets_init', 'oded_widgets_init' );
  * Enqueue scripts and styles.
  */
 function oded_scripts() {
-	wp_enqueue_style( 'oded-bootstrap', get_template_directory_uri() . '/bootstrap/bootstrap.min.css' );
+	wp_enqueue_style( 'oded-bootstrap', get_template_directory_uri() . '/external/bootstrap.min.css' );
+
+	wp_enqueue_style( 'oded-material', get_template_directory_uri() . '/external/material.min.css' );
 
 	wp_enqueue_style( 'oded-style', get_stylesheet_uri() );
 
@@ -115,7 +117,9 @@ function oded_scripts() {
 
 	wp_enqueue_script( 'oded-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'oded-bootstrap-js', get_template_directory_uri() . '/bootstrap/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'oded-bootstrap-js', get_template_directory_uri() . '/external/bootstrap.min.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'oded-material-js', get_template_directory_uri() . '/external/material.min.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -1,5 +1,4 @@
 .widget {
-	background: #C5CAE9;
 	margin: 0 0 1.5em;
 
 	/* Make sure select elements fit in widgets. */
@@ -18,6 +17,7 @@
 	padding: 10px;
 }
 
-.widget_search {
+.widget_search .panel {
 	background: none;
+	box-shadow: none;
 }

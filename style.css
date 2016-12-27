@@ -289,7 +289,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: #eee;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -424,8 +424,6 @@ textarea {
 --------------------------------------------------------------*/
 a {
   color: royalblue; }
-  a:visited {
-    color: purple; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -518,6 +516,7 @@ a {
   background: #3F51B5;
   margin-bottom: 30px; }
   .site-header a, .site-header a:hover, .site-header a:visited, .site-header p {
+    background: none !important;
     color: #fff; }
 
 .entry-footer {
@@ -544,6 +543,14 @@ a {
 .site-footer {
   background: #bfbfbf;
   padding: 30px; }
+
+.mdl-card {
+  padding: 15px 35px;
+  width: 100%; }
+
+.panel {
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12); }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -629,7 +636,6 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  background: #C5CAE9;
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
@@ -642,8 +648,9 @@ a {
   margin-top: 0px;
   padding: 10px; }
 
-.widget_search {
-  background: none; }
+.widget_search .panel {
+  background: none;
+  box-shadow: none; }
 
 /*--------------------------------------------------------------
 # Content
