@@ -64,6 +64,8 @@ if ( ! function_exists( 'oded_setup' ) ) :
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
+
+		add_editor_style( 'editor-style.css' );
 	}
 endif;
 
