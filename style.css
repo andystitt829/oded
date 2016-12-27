@@ -348,7 +348,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background: #ff4081;
+  background: #FF5722;
   border: none;
   border-radius: 3px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -411,7 +411,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #3F51B5; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -442,8 +442,8 @@ a {
       z-index: 99999; }
       .main-navigation ul ul ul {
         left: -999em;
-        margin-left: 0px;
-        top: .6em; }
+        margin-left: -20px;
+        top: 1.5em; }
       .main-navigation ul ul li:hover > ul,
       .main-navigation ul ul li.focus > ul {
         left: 50%; }
@@ -464,9 +464,14 @@ a {
   padding: 5px; }
 
 /* Small menu. */
+button.menu-toggle {
+  background: #757575; }
+
 .menu-toggle,
 .main-navigation.toggled ul {
-  display: block; }
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
@@ -508,6 +513,10 @@ a {
     background: none !important;
     color: #fff; }
 
+@media screen and (max-width: 600px) {
+  .site-title {
+    text-align: center; } }
+
 .entry-footer {
   border-top: 1px solid #b9b7b7;
   padding: 10px 0px; }
@@ -530,7 +539,10 @@ a {
   margin-right: 5px; }
 
 .site-footer {
+  color: #fff;
   padding: 30px; }
+  .site-footer a {
+    color: #9e9e9e; }
 
 .mdl-card {
   padding: 15px 35px;
@@ -681,6 +693,13 @@ a {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+.comments-area {
+  margin-bottom: 35px; }
+
+.comment-body {
+  border-bottom: 1.5px solid #eee;
+  padding: 15px; }
+
 ul.comment-list {
   list-style: none;
   padding: 0; }
@@ -689,6 +708,9 @@ ul.comment-list {
 
 .comment-content a {
   word-wrap: break-word; }
+
+.comment-metadata {
+  padding: 5px 0; }
 
 .bypostauthor {
   display: block; }

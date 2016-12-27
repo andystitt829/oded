@@ -1,3 +1,12 @@
+.comments-area {
+	margin-bottom: 35px;
+}
+
+.comment-body {
+	border-bottom: 1.5px solid #eee;
+	padding: 15px;
+}
+
 ul.comment-list {
 	list-style: none;
 	padding: 0;
@@ -10,6 +19,11 @@ ul.comment-list {
 .comment-content a {
 	word-wrap: break-word;
 }
+
+.comment-metadata {
+	padding: 5px 0;
+}
+
 .bypostauthor {
 	display: block;
 }
