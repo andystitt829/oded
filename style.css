@@ -445,7 +445,7 @@ a {
       .main-navigation ul ul ul {
         left: -999em;
         margin-left: -20px;
-        top: 1.5em; }
+        top: 1em; }
       .main-navigation ul ul li:hover > ul,
       .main-navigation ul ul li.focus > ul {
         left: 50%; }
@@ -766,6 +766,7 @@ object {
     margin-left: auto;
     margin-right: auto; }
   .wp-caption .wp-caption-text {
+    font-size: 0.8em;
     margin: 0.8075em 0; }
 
 .wp-caption-text {

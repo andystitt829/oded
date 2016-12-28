@@ -6,7 +6,8 @@
     },
     "require-dev": {
         "raveren/kint": "^1.0",
-        "filp/whoops": "^2.1"
+        "filp/whoops": "^2.1",
+        "squizlabs/php_codesniffer": "2.*"
     },
     "license": "GPL 2.0+",
     "authors": [
