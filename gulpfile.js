@@ -32,6 +32,7 @@ gulp.task('clean', function() {
     'oded/sass',
     'oded/vendor',
     'oded/wpcs',
+    'oded/bower.json',
     'oded/composer.**',
     'oded/gulpfile.js',
     'oded/oded.zip',
