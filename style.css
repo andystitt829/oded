@@ -523,6 +523,9 @@ button.menu-toggle {
     background: none !important;
     color: #fff; }
 
+.site-title {
+  padding-top: 5px; }
+
 @media screen and (max-width: 600px) {
   .site-title {
     text-align: center; } }
