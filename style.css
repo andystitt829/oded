@@ -282,8 +282,7 @@ big {
 # Elements
 --------------------------------------------------------------*/
 html {
-  box-sizing: border-box;
-  font-size: 16px; }
+  box-sizing: border-box; }
 
 *,
 *:before,
@@ -294,6 +293,9 @@ html {
 body {
   background: #eee;
   /* Fallback for when there is no custom background color defined. */ }
+
+p, ul, ol {
+  font-size: 16px; }
 
 blockquote, q {
   quotes: "" ""; }

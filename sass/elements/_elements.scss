@@ -1,6 +1,5 @@
 html {
 	box-sizing: border-box;
-	font-size: 16px;
 }
 
 *,
@@ -11,6 +10,10 @@ html {
 
 body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+p, ul, ol {
+	font-size: 16px;
 }
 
 blockquote, q {
