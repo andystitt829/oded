@@ -433,7 +433,7 @@ a {
     margin: 12px 0px 5px;
     padding-left: 0; }
     .main-navigation ul ul {
-      background: #3F51B5;
+      background: #C5CAE9;
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
       position: absolute;
@@ -448,6 +448,7 @@ a {
       .main-navigation ul ul li.focus > ul {
         left: 50%; }
       .main-navigation ul ul a {
+        color: #000 !important;
         width: 100px; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
@@ -482,6 +483,13 @@ button.menu-toggle {
 @media screen and (max-width: 992px) {
   .main-navigation ul {
     margin-top: 5px; } }
+
+@media screen and (max-width: 600px) {
+  .main-navigation ul ul {
+    top: 2.5em; }
+    .main-navigation ul ul ul {
+      top: 2em;
+      margin-left: -40px !important; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
