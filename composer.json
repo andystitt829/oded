@@ -1,10 +1,19 @@
 {
+    "name": "Oded",
+    "description": "Oded WordPress theme",
     "require": {
-        "twbs/bootstrap": "^3.3"
+        "php": ">=5.3"
     },
-
     "require-dev": {
-      "raveren/kint" : "~1.0",
-      "filp/whoops": "~2.0"
-    }
+        "raveren/kint": "^1.0",
+        "filp/whoops": "^2.1"
+    },
+    "license": "GPL 2.0+",
+    "authors": [
+        {
+            "name": "Andy Stitt",
+            "email": "andystitt829@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }

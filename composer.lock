@@ -4,74 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0e253041c2f1a389875a7b6cdcd2d65",
-    "content-hash": "01d06ab664b35d7d4cc4803bf1cd776f",
-    "packages": [
-        {
-            "name": "twbs/bootstrap",
-            "version": "v3.3.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
-                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
-                "shasum": ""
-            },
-            "replace": {
-                "twitter/bootstrap": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                },
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                }
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "http://getbootstrap.com",
-            "keywords": [
-                "JS",
-                "css",
-                "framework",
-                "front-end",
-                "less",
-                "mobile-first",
-                "responsive",
-                "web"
-            ],
-            "time": "2016-07-25 15:51:55"
-        }
-    ],
+    "hash": "4f32351c269dcf9abcadff86082d8cd4",
+    "content-hash": "a96e9724011d0f94886b1656a604ac3f",
+    "packages": [],
     "packages-dev": [
         {
             "name": "filp/whoops",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa"
+                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
-                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/2abce9d956589122c6443d6265f01cf7e9388e3c",
+                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c",
                 "shasum": ""
             },
             "require": {
@@ -118,20 +66,20 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2016-10-11 15:32:23"
+            "time": "2016-12-26 16:13:31"
         },
         {
             "name": "raveren/kint",
-            "version": "1.0.10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raveren/kint.git",
-                "reference": "c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb"
+                "reference": "79356db6dbe19532091291ea46a01844fcf9cbbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raveren/kint/zipball/c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb",
-                "reference": "c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb",
+                "url": "https://api.github.com/repos/raveren/kint/zipball/79356db6dbe19532091291ea46a01844fcf9cbbe",
+                "reference": "79356db6dbe19532091291ea46a01844fcf9cbbe",
                 "shasum": ""
             },
             "require": {
@@ -169,14 +117,16 @@
                 "kint",
                 "php"
             ],
-            "time": "2015-09-16 14:09:00"
+            "time": "2016-10-05 07:38:36"
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.3"
+    },
     "platform-dev": []
 }
