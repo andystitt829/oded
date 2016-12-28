@@ -1,7 +1,7 @@
 {
   "name": "oded",
   "version": "1.0.0",
-  "description": "Custom WordPress theme",
+  "description": "Custom WordPress theme for bloggers using Bootstrap and Google Material Design",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/andystitt829/oded.git"
   },
-  "author": "Andy Stitt",
-  "license": "ISC",
+  "author": "Andy Stitt <andy@andystitt.com> (https://andystitt.com)",
+  "license": "GPL 2.0+",
   "bugs": {
     "url": "https://github.com/andystitt829/oded/issues"
   },

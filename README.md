@@ -10,7 +10,8 @@ Getting Started
 
 There are several ways you can download and install Oded:
 
-* Clone this repository by opening your command line tool and typing `cd your-project-directory` (replacing "your-project-directory" with the actual name of your project directory) and then...
+* Clone this repository by opening your command line tool and typing `cd your-project-directory` (replacing "your-project-directory" with the actual name of your project directory) and then typing `git clone https://github.com/andystitt829/oded.git`
+* 
 
 If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
 
