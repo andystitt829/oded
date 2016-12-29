@@ -1,5 +1,5 @@
 Oded
-===
+====
 
 Oded is a WordPress theme for bloggers that incorporates Bootstrap and Google Material Design. The theme is named in loving memory of my father, Oded Stitt.
 
@@ -10,29 +10,20 @@ Getting Started
 
 There are several ways you can download and install Oded:
 
-* Clone this repository by opening your command line tool and typing `cd your-project-directory` (replacing "your-project-directory" with the actual name of your project directory) and then typing `git clone https://github.com/andystitt829/oded.git`.
+* Clone this repository by opening your command line tool and typing `cd your-project-directory/wp-content/themes` (replacing "your-project-directory" with the actual name of your project directory) and then typing `git clone https://github.com/andystitt829/oded.git`
 * You can download a ZIP file of theme either [with the SASS files](http://andystitt.com/themes/oded-with-sass.zip) or [without them](http://andystitt.com/themes/oded.zip).
+* If you use Node.js, you can go to your project directory via the command line and then type `npm install oded`
+* I have submitted this theme for inclusion in the WordPress theme repository; hoping it gets approved so you can access it from there!
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+A Few Notes for Developers
+--------------------------
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
+I have included the files that I use for my development workflow. You can feel free to modify or delete them as you see fit.
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+For your reference, I use the following:
 
-OR
+* [Composer](https://getcomposer.org/) for PHP dependency management; I specifically use Kint for PHP debugging, Whoops for nicer error messages, and PHP Codesniffer with the WordPress Coding Standards module
+* [Bower](https://bower.io/) to manage my front-end package dependencies, specifically the Bootstrap and Google Material Design Lite CSS and JS files
+* [Gulp](http://gulpjs.com/) as my task runner; tasks include compiling SASS as well as compressing the theme files into a ZIP file and getting rid of those files that should not be in a WordPress theme ZIP file
 
-* Search for: `'_s'` and replace with: `'megatherium-is-awesome'`
-* Search for: `_s_` and replace with: `megatherium_is_awesome_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium-is-awesome` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>
-* Search for: `_s-` and replace with: `megatherium-is-awesome-`
-
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
-
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
-
-Good luck!
+I hope you enjoy using this theme! Feedback is always appreciated.
