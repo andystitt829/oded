@@ -1,5 +1,5 @@
 {
-  "name": "oded",
+  "name": "oded-wp",
   "version": "1.0.0",
   "description": "Custom WordPress theme for bloggers using Bootstrap and Google Material Design",
   "main": "index.js",
