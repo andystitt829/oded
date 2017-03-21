@@ -3,7 +3,11 @@ Oded
 
 Oded is a WordPress theme for bloggers that incorporates Bootstrap and Google Material Design. The theme is named in loving memory of my father, Oded Stitt.
 
-This theme was built on top of [Underscores](http://underscores.me).
+Oded is licensed under MIT and uses the following resources:
+
+* [Bootstrap](http://getbootstrap.com/), licensed under MIT
+* [Google Material Design Lite](https://github.com/google/material-design-lite), licensed under Apache-2
+* [Underscores](http://underscores.me), licensed under GNU GPL v2
 
 Getting Started
 ---------------

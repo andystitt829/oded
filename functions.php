@@ -61,7 +61,7 @@ if ( ! function_exists( 'oded_setup' ) ) :
 
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'oded_custom_background_args', array(
-			'default-color' => 'ffffff',
+			'default-color' => 'eee',
 			'default-image' => '',
 		) ) );
 
