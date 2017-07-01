@@ -105,9 +105,9 @@ add_action( 'widgets_init', 'oded_widgets_init' );
  * Enqueue scripts and styles.
  */
 function oded_scripts() {
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/external-assets/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/external-assets/bootstrap.css' );
 
-	wp_enqueue_style( 'material', get_template_directory_uri() . '/external-assets/material.min.css' );
+	wp_enqueue_style( 'material', get_template_directory_uri() . '/external-assets/material.css' );
 
 	wp_enqueue_style( 'oded-style', get_stylesheet_uri() );
 
